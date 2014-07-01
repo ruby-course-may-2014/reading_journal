@@ -30,7 +30,7 @@ gem 'tzinfo-data', platforms: :x64_mingw
 
 gem 'wdm', '~> 0.1.0', platforms: :x64_mingw
 
-gem 'devise'
+gem 'clearance'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
