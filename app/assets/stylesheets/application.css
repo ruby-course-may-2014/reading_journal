@@ -1,3 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: White;
+  color: #8B4513;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 10pt;
+}
+div#flash {
+  margin: 0;
+  padding: 0 20px 20px;
+}
+a {
+  background: transparent;
+  color: #8B4513;
+  text-decoration: underline;
+  font-weight: bold;
+}
+h1 {
+  color: #8B4513;
+  font-size: 150%;
+  font-style: italic;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid DarkSlateGrey;
+}
+h1.title {
+  margin: 0 0 1em;
+  padding: 10px;
+  background-color:  #00FFFF;
+  color: white;
+  border-bottom: 4px solid #8B4513;
+  font-size: 2em;
+  font-style: normal;
+}
 div.current_user {
   float:right; 
   margin-right: 20px;
@@ -5,4 +40,30 @@ div.current_user {
 div#flash {
   margin: 0;
   padding: 0 20px 20px;
+}
+table#books {
+  margin: 10px;
+  border-collapse: collapse;
+  width: 100%;
+  border-bottom: 2px solid #8B4513;
+}
+table#books th {
+  border: 2px solid white;
+  font-weight: bold;
+  background-color: #00FFFF;
+}
+table#books th, table#books td {
+  padding: 4px;
+  text-align: left;
+}
+#notice #warning {
+  background: #00FFFF;
+  margin: 1em 0;
+  padding: 4px;
+}
+form label {
+  display: block;
+  line-height: 25px;
+  font-weight: bold;
+  color: #8B4513;
 }
