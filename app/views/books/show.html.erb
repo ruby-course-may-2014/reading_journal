@@ -1,0 +1,13 @@
+<h2>Details about <%= @book.title %></h2>
+ 
+<ul>
+  <li>Rating: <%= @book.rating %></li>
+  <li>Date of publication: <%= @book.published_at %></li>
+</ul>
+
+<h3>Description</h3>
+ 
+<p><%= @book.description %></p>
+ 
+
+<%= link_to "Back to list", books_path %>
