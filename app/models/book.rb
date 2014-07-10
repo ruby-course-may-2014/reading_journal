@@ -3,7 +3,6 @@ class Book < ActiveRecord::Base
   validates :title, presence: true
   validates :author, presence: true
   validates :rating, presence: true
-  validates :published_at, presence: { message: "looks bad" }
-  validates :description, presence: true,
-                          length: { minimum: 10 }
+  validates :published_at, presence: true
+  validates :description, presence: true, length: { minimum: 10, allow_blank: true }
 end
