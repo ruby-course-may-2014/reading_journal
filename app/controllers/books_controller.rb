@@ -1,6 +1,6 @@
 class BooksController < ApplicationController
-  before_action :authorize,
-                :find_book, except: [:index, :new, :create]
+  before_action :authorize
+  before_action :find_book, except: [:index, :new, :create]
   
   def index
     @books = current_user.books
