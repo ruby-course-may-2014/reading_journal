@@ -1,0 +1,14 @@
+<h2>Details about <%= @book.title %></h2>
+ 
+<ul>
+  <li>Rating: <%= @book.rating %></li>
+  <li>Date of publication: <%= @book.published_at %></li>
+</ul>
+
+<h3>Description</h3>
+ 
+<p><%= @book.description %></p>
+ 
+<%= link_to "Edit", [:edit, @book] %>
+<%= button_to "Delete", @book, method: :delete, data: { confirm: "Are you sure?" } %>
+<%= link_to "Back to list", books_path %>
