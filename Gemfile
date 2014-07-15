@@ -25,6 +25,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'clearance'
 
+gem 'rspec-rails', '2.99'
+
 group :development do
 
   gem 'spring'
