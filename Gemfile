@@ -25,11 +25,13 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'clearance'
 
-gem 'rspec-rails', '2.99'
-
 group :development do
 
+	gem 'rspec-rails', '~> 3.0'
+
   gem 'spring'
+
+   gem 'factory_girl_rails', '~> 4.2'
 
   gem 'tzinfo-data', platforms: :x64_mingw
 

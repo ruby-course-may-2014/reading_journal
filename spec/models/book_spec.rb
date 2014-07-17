@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Book do
-  context "validates" do
+  context "valid_book" do
     let(:book1) {Book.create(title: 'T', author: 'T', published_at: '2014-06-12', description: 'this is a very interesting', rating: 'good')}
     let(:book2) {Book.create(title: '', author: 'T', published_at: '06-12', description: 'this is a very interesting', rating: 'good')}
     let(:book3) {Book.create(title: 'T', author: '', published_at: '2014-06-12', description: 'this is a very interesting', rating: 'good')}

@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe User do
-  context "validates" do
+  context "valid_user" do
     let(:user1) {User.create(email: '123@qwe.qwe', password: '123')}
     let(:user2) {User.create(email: '123@qwe.qwe', password: '123')}
     let(:user3) {User.create(email: '123qwe.qwe', password: '123')}
